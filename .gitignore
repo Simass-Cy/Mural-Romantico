@@ -1,0 +1,83 @@
+HELP.md
+docs/contexto_mvp_saas_mural_romantico_codex.md
+
+### Environment and local secrets ###
+.env
+.env.*
+!.env.example
+password.txt
+passwords.txt
+senha.txt
+senhas.txt
+secret.txt
+secrets.txt
+token.txt
+tokens.txt
+credentials.*
+*.credentials
+*.password
+*.passwd
+*.secret
+*.secrets
+*.token
+*.tokens
+aws_credentials
+id_rsa
+id_ed25519
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.crt
+*.cer
+*.der
+*.dump
+*.backup
+*dump*.sql
+application-local.properties
+application-local.yml
+application-local.yaml
+
+### Build output ###
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Logs ###
+logs/
+*.log
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### OS files ###
+.DS_Store
+Thumbs.db
